@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/t2025-m0253
+    username: t2025-m0253
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
